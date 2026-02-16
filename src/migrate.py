@@ -1,5 +1,9 @@
 import pyodbc
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 # פרטי התחברות - בשלב ה-CI זה יעבור למשתני סביבה (Secrets)
 DB_CONFIG = {
